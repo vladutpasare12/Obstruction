@@ -11,7 +11,6 @@ class Service:
         self.__board = board
 
     def get_board(self):
-        # change self.board.board, it doesn't look good
         return self.__board.board
 
     def get_cell_state(self, row, column):
