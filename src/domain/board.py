@@ -13,7 +13,7 @@ class GameBoard:
         self.clear_board()
 
     def clear_board(self):
-        """sets all cells to be empty"""
+        """sets all cells to empty"""
 
         self.__board = [[], [], [], [], [], [], [], []]
         for row in range(8):
